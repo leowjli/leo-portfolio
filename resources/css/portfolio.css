@@ -1,0 +1,88 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#name {
+    padding-left: 50px;
+    font-family: Inter, sans-serif;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+}
+
+#name.hover{
+    background-color: white;
+    color: black;
+}
+
+#navbar {
+    font-family: Inter, sans-serif;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+}
+
+#navbar ul {
+    list-style: none;
+    text-align: right;
+    padding: 0px 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#navbar li {
+    display: inline-block;
+}
+
+#navbar a {
+    text-align: center;
+    text-decoration: none;
+    font-family: Inter, sans-serif;
+    color: black;
+    display: block;
+    padding: 0px 20px;
+}
+
+#navbar a:hover {
+    background-color: white;
+    color: black;
+}
+
+#socials {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#socials a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    transition: all 3s ease;
+    color: black;
+    font-size: 20px;
+}
+
+.footer {
+    text-align: center;
+    font-family: Inter, sans-serif;
+    color: black;
+}
+
+#connect {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#cntlink {
+    text-decoration-color: black;
+    color: black;
+}
+
+#cr {
+    color: gray;
+    width: 100%;
+}

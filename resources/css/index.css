@@ -1,0 +1,192 @@
+.header {
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding-bottom: 9px;
+}
+
+#name {
+    padding-left: 50px;
+    padding-top: 9px;
+    font-family: Inter, sans-serif;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+}
+
+#name.hover{
+    background-color: white;
+    color: black;
+}
+
+#navbar {
+    font-family: Inter, sans-serif;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding-top: 9px;
+}
+
+#navbar ul {
+    list-style: none;
+    text-align: right;
+    padding: 0px 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#navbar li {
+    display: inline-block;
+}
+
+#navbar a {
+    text-align: center;
+    text-decoration: none;
+    font-family: Inter, sans-serif;
+    color: black;
+    display: block;
+    padding: 0px 20px;
+}
+
+#navbar a:hover {
+    background-color: white;
+    color: black;
+}
+
+hr {
+    position: sticky;
+    top: 46px;
+    background-color: white;
+}
+
+#socials {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-20%);
+    padding-left: 50px;
+}
+
+#socials a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    transition: all 3s ease;
+    color: black;
+    font-size: 20px;
+}
+
+#right {
+    position: fixed;
+    right: 90px;
+    top: 46px;
+}
+
+.vl {
+    display: block;
+    height: 255px;
+    width: 0.5px;
+    margin: 0px auto;
+    background-color: black;
+}
+
+article {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+h3 {
+    font-family: Inter, sans-serif;
+    color: black;
+    margin-bottom: 0;
+}
+
+h5 {
+    font-family: Inter, sans-serif;
+    color: darkgray;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#pfp {
+    height: 20%;
+    width: 20%;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter, sans-serif;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.banner h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+#major {
+    font-size: 15pt;
+}
+
+#work a {
+    text-decoration: none;
+    color: black;
+}
+
+#ezpark {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: Inter, sans-serif;
+    margin-left: 15%;
+    padding: 20px 0px 20px 0px;
+}
+
+#meye {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: Inter, sans-serif;
+    margin-right: 15%;
+    padding: 20px 0px 20px 0px;
+}
+
+.footer {
+    text-align: center;
+    font-family: Inter, sans-serif;
+    color: black;
+}
+
+#connect {
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 20px 20px;
+}
+
+#cntlink {
+    text-decoration-line: black;
+    color: black;
+}
+
+#cr {
+    color: gray;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
