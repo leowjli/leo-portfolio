@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .header {
     position: fixed;
     top: 0px;
@@ -61,6 +65,8 @@ hr {
     position: sticky;
     top: 46px;
     background-color: white;
+    margin: 0;
+    border-bottom: 0;
 }
 
 #socials {
@@ -87,7 +93,7 @@ hr {
 
 .vl {
     display: block;
-    height: 255px;
+    height: 278px;
     width: 0.5px;
     margin: 0px auto;
     background-color: black;
@@ -121,23 +127,24 @@ h5 {
 
 #intro {
     display: flex;
-    margin-left: 15%;
+    margin-left: 20%;
     justify-content: center;
     align-items: center;
 }
 
 #intro img {
     font-family: Inter, sans-serif;
-    height: 35%;
-    width: 35%;
-    margin-right: 80px;
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+    border: solid 15px #e7f5fe;
+    margin-right: 60px;
 }
 
 #intro p {
     font-family: Inter, sans-serif;
-    font-size: 17.5px;
     color: black;
-    margin-right: 25%;
+    margin-right: 30%;
 }
 
 #uw-involve {

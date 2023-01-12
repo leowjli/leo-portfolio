@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .header {
     position: fixed;
     top: 0px;
@@ -61,6 +65,8 @@ hr {
     position: sticky;
     top: 46px;
     background-color: white;
+    margin: 0;
+    border-bottom: 0;
 }
 
 #socials {
@@ -87,7 +93,7 @@ hr {
 
 .vl {
     display: block;
-    height: 255px;
+    height: 278px;
     width: 0.5px;
     margin: 0px auto;
     background-color: black;
