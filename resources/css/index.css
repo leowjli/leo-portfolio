@@ -11,6 +11,7 @@ body {
     width: 100%;
     background-color: white;
     padding-bottom: 9px;
+    z-index: 300;
 }
 
 #name {
@@ -160,13 +161,53 @@ h5 {
     align-items: flex-start;
     font-family: Inter, sans-serif;
     margin-left: 15%;
+    margin-right: 15%;
     padding: 20px 0px 20px 0px;
 }
 
+#ez-desc {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.img {
+    position: relative;
+    width: 2000px;
+}
+
 #thumbnail {
-    height: 40%;
-    width: 40%;
-    margin-left: 20px;
+    display: block;
+    width: 100%;
+}
+
+.text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: Inter, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.text > * {
+    transform: translateY(20px);
+    transition: transform 0.5s;
+}
+
+.text:hover {
+    opacity: 1;
+}
+
+.text:hover > * {
+    transform: translateY(0);
 }
 
 #meye {
