@@ -1,5 +1,5 @@
 body {
-    background-color: #e7f5fe;
+    background-color: white;
     margin: 0;
 }
 
@@ -139,6 +139,7 @@ h5 {
 button {
     background-color: black;
     border: none;
+    border-radius: 25px;
     padding: 10px 0px;
     margin-bottom: 50px;
 }
@@ -153,6 +154,7 @@ button a {
 
 button a:hover{
     background-color: cornflowerblue;
+    border-radius: 25px;
     color: white;
     transition: 0.5s;
 }
