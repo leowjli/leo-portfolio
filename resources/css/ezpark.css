@@ -11,6 +11,7 @@ body {
     width: 100%;
     background-color: white;
     padding-bottom: 9px;
+    z-index: 300;
 }
 
 #name {
@@ -99,66 +100,6 @@ hr {
     background-color: black;
 }
 
-article {
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-h1 {
-    font-family: Inter, sans-serif;
-    font-size: 30px;
-    color: black;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-h3 {
-    font-family: Inter, sans-serif;
-    color: black;
-    margin-bottom: 0;
-}
-
-h5 {
-    font-family: Inter, sans-serif;
-    color: #555;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-#intro {
-    display: flex;
-    margin-left: 20%;
-    margin-right: 10%;
-    justify-content: center;
-    align-items: center;
-}
-
-#intro img {
-    font-family: Inter, sans-serif;
-    height: 50%;
-    width: 50%;
-    border-radius: 50%;
-    border: solid 15px #e7f5fe;
-    margin-right: 30px;
-}
-
-#intro p {
-    font-family: Inter, sans-serif;
-    color: black;
-    margin-right: 30%;
-    line-height: 1.4;
-}
-
-#uw-involve {
-    background-color: #f9f9f9;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-#involvements {
-    margin-left: 15%;
-}
-
 .footer {
     text-align: center;
     font-family: Inter, sans-serif;
@@ -172,7 +113,7 @@ h5 {
 }
 
 #cntlink {
-    text-decoration-color: black;
+    text-decoration-line: black;
     color: black;
 }
 

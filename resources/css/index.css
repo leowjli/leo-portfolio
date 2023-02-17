@@ -142,11 +142,13 @@ h5 {
 .intro {
     display: flex;
     flex-direction: column;
-    font-size: 30px;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 #major {
-    font-size: 15pt;
+    font-size: 20pt;
 }
 
 #work a {
