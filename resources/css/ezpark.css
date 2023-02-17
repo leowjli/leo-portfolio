@@ -100,6 +100,27 @@ hr {
     background-color: black;
 }
 
+article {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+p {
+    font-family: Inter, sans-serif;
+    color: black;
+    line-height: 1.4;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter, sans-serif;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
 .footer {
     text-align: center;
     font-family: Inter, sans-serif;
