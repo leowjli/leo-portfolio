@@ -94,7 +94,7 @@ hr {
 
 .vl {
     display: block;
-    height: 278px;
+    height: 273px;
     width: 0.5px;
     margin: 0px auto;
     background-color: black;
@@ -109,6 +109,13 @@ p {
     font-family: Inter, sans-serif;
     color: black;
     line-height: 1.4;
+}
+
+h5 {
+    font-family: Inter, sans-serif;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .title {
@@ -134,7 +141,7 @@ p {
 }
 
 #cntlink {
-    text-decoration-line: black;
+    text-decoration-color: black;
     color: black;
 }
 

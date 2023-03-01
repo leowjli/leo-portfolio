@@ -93,7 +93,7 @@ hr {
 
 .vl {
     display: block;
-    height: 278px;
+    height: 273px;
     width: 0.5px;
     margin: 0px auto;
     background-color: black;
@@ -120,7 +120,7 @@ h3 {
 
 h5 {
     font-family: Inter, sans-serif;
-    color: #555;
+    color: black;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -153,10 +153,40 @@ h5 {
     background-color: #f9f9f9;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-bottom: 0;
 }
 
 #involvements {
     margin-left: 15%;
+    margin-right: 15%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#involvements a {
+    text-decoration: none;
+    color:#7EC8E3;
+}
+
+#involvements a:hover{
+    text-decoration: underline;
+}
+
+#activities {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#activities h5 {
+    line-height: 1.4;
+    font-weight: 300;
+    font-size: medium;
 }
 
 .footer {
