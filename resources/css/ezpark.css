@@ -109,6 +109,12 @@ p {
     font-family: Inter, sans-serif;
     color: black;
     line-height: 1.4;
+    max-width: 640px;
+    word-wrap: break-word;
+}
+
+h1 {
+    color: #B7A57A;
 }
 
 h5 {
@@ -125,7 +131,11 @@ h5 {
     align-items: center;
     font-family: Inter, sans-serif;
     margin-top: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 0;
+}
+
+.title h1 {
+    color: black;
 }
 
 .intro {
@@ -136,13 +146,49 @@ h5 {
     font-family: Inter, sans-serif;
 }
 
+.team {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 640px;
+}
+
+#problem, #sol{
+    color: #B7A57A;
+}
+
 .research {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: Inter, sans-serif;
-    margin-bottom: 200px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.research a {
+    text-decoration: none;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.research a:hover{
+    text-decoration: underline;
+}
+
+.moodboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.moodboard img {
+    max-width: 640px;
 }
 
 .footer {
