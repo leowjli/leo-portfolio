@@ -124,6 +124,10 @@ h5 {
     margin-bottom: 0;
 }
 
+img {
+    max-width: 640px;
+}
+
 .title {
     display: flex;
     flex-direction: column;
@@ -187,8 +191,24 @@ h5 {
     margin-bottom: 0;
 }
 
-.moodboard img {
-    max-width: 640px;
+.userp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.sitemap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 0;
 }
 
 .footer {
