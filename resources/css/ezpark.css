@@ -211,6 +211,36 @@ img {
     margin-bottom: 0;
 }
 
+.lofi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.hifi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
 .footer {
     text-align: center;
     font-family: Inter, sans-serif;
