@@ -10,30 +10,23 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color:#105269;
+    background-color: white;
     padding-bottom: 9px;
     z-index: 300;
 }
 
-#name {
+.namelogo {
     padding-left: 50px;
     padding-top: 9px;
-    font-family: Inter, sans-serif;
-    text-decoration: none;
-    background-color: #105269;
-    color: white;
-}
-
-#name.hover{
-    background-color: #105269;
-    color: white;
+    max-width: 50px;
+    max-height: 50px;
+    background-color: white;
 }
 
 #navbar {
     font-family: Inter, sans-serif;
     text-decoration: none;
-    background-color: #105269;
-    color: white;
+    color: #105269;
     padding-top: 9px;
 }
 
@@ -53,14 +46,12 @@ body {
     text-align: center;
     text-decoration: none;
     font-family: Inter, sans-serif;
-    color: white;
+    color: #105269;
     display: block;
     padding: 0px 20px;
 }
 
 #navbar a:hover {
-    background-color: #105269;
-    color: white;
     text-decoration: underline;
     text-underline-offset: 5px;
 }
@@ -68,7 +59,6 @@ body {
 hr {
     position: sticky;
     top: 46px;
-    background-color: white;
     margin: 0;
     border-bottom: 0;
 }
