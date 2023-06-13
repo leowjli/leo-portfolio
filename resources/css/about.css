@@ -23,14 +23,14 @@ body {
     background-color: white;
 }
 
-#navbar {
+.navbar {
     font-family: Inter, sans-serif;
     text-decoration: none;
-    color: #105269;
+    color: .105269;
     padding-top: 9px;
 }
 
-#navbar ul {
+.navbar ul {
     list-style: none;
     text-align: right;
     padding: 0px 50px;
@@ -38,20 +38,20 @@ body {
     margin-bottom: 16px;
 }
 
-#navbar li {
+.navbar li {
     display: inline-block;
 }
 
-#navbar a {
+.navbar a {
     text-align: center;
     text-decoration: none;
     font-family: Inter, sans-serif;
-    color: #105269;
+    color: .105269;
     display: block;
     padding: 0px 20px;
 }
 
-#navbar a:hover {
+.navbar a:hover {
     text-decoration: underline;
     text-underline-offset: 5px;
 }
@@ -63,14 +63,14 @@ hr {
     border-bottom: 0;
 }
 
-#socials {
+.socials {
     position: fixed;
     top: 50%;
     transform: translateY(-20%);
     padding-left: 50px;
 }
 
-#socials a {
+.socials a {
     display: block;
     text-align: center;
     padding: 10px;
@@ -79,7 +79,7 @@ hr {
     font-size: 20px;
 }
 
-#right {
+.right {
     position: fixed;
     right: 90px;
     top: 46px;
@@ -127,30 +127,30 @@ p {
     word-wrap: break-word;
 }
 
-#intro {
+.intro {
     display: flex;
     margin: 15% 15% 5% 15%;
     justify-content: center;
     align-items: center;
 }
 
-#intro img {
+.intro img {
     font-family: Inter, sans-serif;
     height: 50%;
     width: 50%;
     border-radius: 50%;
-    border: solid 5px #105169;
+    border: solid 5px .105169;
     margin-right: 100px;
 }
 
-#uw-involve {
+.uw-involve {
     background-color: #e7f5fa;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 0;
 }
 
-#involvements {
+.involvements {
     margin-left: 15%;
     margin-right: 15%;
     display: flex;
@@ -158,22 +158,22 @@ p {
     justify-content: space-evenly;
 }
 
-#involvements a {
+.involvements a {
     text-decoration: none;
     color: #f92c85;
 }
 
-#involvements a:hover{
+.involvements a:hover{
     text-decoration: underline;
 }
 
-#curly {
+.curly {
     font-size: 80px;
     padding-bottom: 12px;
     font-weight: 300;
 }
 
-#activities {
+.activities {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -182,7 +182,7 @@ p {
     padding-bottom: 20px;
 }
 
-#activities h5 {
+.activities h5 {
     line-height: 1.4;
     font-weight: 300;
     font-size: medium;
@@ -194,18 +194,18 @@ p {
     color: black;
 }
 
-#connect {
+.connect {
     font-size: 20px;
     font-weight: lighter;
     margin: 20px 20px;
 }
 
-#cntlink {
+.cntlink {
     text-decoration-color: black;
     color: black;
 }
 
-#cr {
+.cr {
     color: gray;
     width: 100%;
     padding-top: 10px;
