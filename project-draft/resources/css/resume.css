@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    background-color: #e7f5fa;
+}
+
+.header {
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding-bottom: 9px;
+    z-index: 300;
+}
+
+.namelogo {
+    padding-left: 50px;
+    padding-top: 9px;
+    max-width: 50px;
+    max-height: 50px;
+    background-color: white;
+}
+
+.navbar {
+    font-family: Inter, sans-serif;
+    text-decoration: none;
+    color: #105269;
+    padding-top: 9px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0 50px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    text-align: center;
+    text-decoration: none;
+    font-family: Inter, sans-serif;
+    color: #105269;
+    display: block;
+    padding: 0px 20px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+hr {
+    position: sticky;
+    top: 46px;
+    margin: 0;
+    border-bottom: 0;
+}
+
+.socials {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-20%);
+    padding-left: 50px;
+}
+
+.socials a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    transition: all 3s ease;
+    color: black;
+    font-size: 20px;
+}
+
+.right {
+    position: fixed;
+    right: 90px;
+    top: 46px;
+}
+
+.vl {
+    display: block;
+    height: 278px;
+    width: 0.5px;
+    margin: 0px auto;
+    background-color: black;
+}
+
+h1 {
+    font-family: Inter, sans-serif;
+    font-size: 30px;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-family: Inter, sans-serif;
+    color: black;
+    margin-bottom: 0;
+}
+
+h5 {
+    font-family: Inter, sans-serif;
+    color: darkgray;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.resume {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.resumepic{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 40%;
+    height: inherit;
+    box-shadow: 0px 20px 40px gray;
+}
+
+button {
+    background-color: black;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 0px;
+    margin-bottom: 50px;
+}
+
+button a {
+    color: white;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+button a:hover{
+    background-color: #105269;
+    border-radius: 25px;
+    color: white;
+    transition: 0.5s;
+}
+
+.footer {
+    text-align: center;
+    font-family: Inter, sans-serif;
+    color: black;
+}
+
+.connect {
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 20px 20px;
+}
+
+.cntlink {
+    text-decoration-color: black;
+    color: black;
+}
+
+.cr {
+    color: gray;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
