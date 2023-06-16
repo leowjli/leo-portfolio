@@ -1,18 +1,18 @@
 import React from "react";
 import Header from "./Header";
-import Footer from "./Footer";
 import Socials from "./Socials";
-import Portfolio from "./Portfolio";
+import Footer from "./Footer";
+import ResumeCard from "./ResumeCard";
 
-  export default function Main() {
+  export default function Resume() {
     return (
       <main>
         <Header />
         <hr />
-        <section class="right"><span class="vl" /></section>
+        <section className="right"><span class="vl"></span></section>
         <Socials />
         <span className="vl" />
-        <Portfolio />
+        <ResumeCard />
         <Footer />
       </main>
     );

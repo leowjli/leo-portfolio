@@ -12,6 +12,7 @@ import Involvements from "./Involvements";
         <hr />
         <section className="right"><span class="vl"></span></section>
         <Socials />
+        <span className="vl" />
         <Intro />
         <Involvements />
         <Footer />
