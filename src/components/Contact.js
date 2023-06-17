@@ -8,6 +8,6 @@ import { Link } from "react-router-dom";
                 window.location.href = props.contact;
                 info.preventDefault();
             }}
-          ></Link>
+          >{props.prompt}</Link>
       );
   }

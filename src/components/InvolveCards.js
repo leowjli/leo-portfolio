@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
     return (
       <h5>
         {props.position}
-        <Link to={props.link} className={props.org} target="_blank">
+        <Link to={props.link} target="_blank" className={props.org} >
           <strong>{props.orgName}</strong>
         </Link>
       </h5>

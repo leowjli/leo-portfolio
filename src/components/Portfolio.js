@@ -7,7 +7,7 @@ import MeyeCard from "./MeyeCard";
     return (
       <div>
         <Banner />
-        <article class="work">
+        <article className="work">
           <EZParkCard />
           <MeyeCard />
         </article>

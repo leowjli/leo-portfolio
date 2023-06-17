@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
           </Link>
         </div>
         <div className="desc">
-            <h2><Link to="https://myearthyourearth.com/">My Earth Your Earth</Link></h2>
+            <h2><Link to="https://myearthyourearth.com/" target="_blank" >My Earth Your Earth</Link></h2>
         </div>
       </section>
     );
