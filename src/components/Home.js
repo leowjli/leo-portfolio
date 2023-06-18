@@ -9,9 +9,7 @@ import Portfolio from "./Portfolio";
       <main>
         <Header />
         <hr />
-        <section className="right"><span className="vl" /></section>
         <Socials />
-        <span className="vl" />
         <Portfolio />
         <Footer />
       </main>

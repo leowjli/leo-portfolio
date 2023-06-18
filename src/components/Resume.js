@@ -9,9 +9,7 @@ import ResumeCard from "./ResumeCard";
       <main>
         <Header />
         <hr />
-        <section className="right"><span className="vl"></span></section>
         <Socials />
-        <span className="vl" />
         <ResumeCard />
         <Footer />
       </main>

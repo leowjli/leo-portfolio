@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
     return (
       <header className="header">
         <NavLink className="name" to="/">
-          <img className="namelogo" src="./resources/images/Name Logo.png" alt="Leo Li" />
+          <img className="namelogo" src="/img/Name Logo.png" alt="Leo Li" />
         </NavLink>
         {/* <!-- navigation bar --> */}
         <NavBar />
