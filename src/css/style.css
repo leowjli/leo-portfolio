@@ -56,7 +56,6 @@ main {
   margin: 0 20px;
   padding: 5px 15px;
   position: relative;
-  overflow: hidden;
 }
 
 .navbar a::before {
@@ -99,31 +98,31 @@ main {
   font-size: 20px;
 } */
 
-article, h1, h5 {
+.footer {
+  text-align: center;
+  background-color: white;
+  padding: 20px 0;
+}
+
+.connect {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.cntlink {
+  color: #f92c85;
+}
+
+.cr {
+  width: 100%;
+  color: gray;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+article, h1, h3 {
   margin-top: 0px;
   margin-bottom: 0px;
-}
-
-h3 {
-  margin-bottom: 0;
-}
-
-h5 {
-  color: darkgray;
-}
-
-.intro {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 40px;
-  padding-top: 250px;
-  padding-bottom: 150px;
-}
-
-.greet {
-  color: #f92c85;
 }
 
 .intro h1, p {
@@ -131,14 +130,39 @@ h5 {
   padding: 0;
 }
 
+.intro, .intro div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.greet {
+  color: #f92c85;
+}
+
+.intro {
+  font-size: 40px;
+  padding-top: 200px;
+  padding-bottom: 150px;
+}
+
+
+
 .major {
   font-size: 25px;
   line-height: 1.4;
 }
 
+.work {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .work a {
   text-decoration: none;
-  color: #4B2E83;
+  color: black;
 }
 
 .ezpark {
@@ -146,19 +170,16 @@ h5 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 15%;
-  padding: 20px 0;
+  padding: 10px;
 }
 
 .desc {
   display: flex;
   flex-direction: column;
-  margin-right: 20px;
 }
 
 .img {
   position: relative;
-  width: 70%;
 }
 
 .logo {
@@ -167,17 +188,17 @@ h5 {
 }
 
 .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-  color: white;
-  font-family: Inter, sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background: rgba(0, 0, 0, 0.75);
+  color: #e7f5fa;
   opacity: 0;
   transition: opacity 0.5s;
 }
@@ -195,37 +216,84 @@ h5 {
   transform: translateY(0);
 }
 
-/* .prompt {
-  padding: 20%;
-} */
+.prompt, .prompt2 {
+  font-size: 20px;
+  margin: 10px 80px;
+}
+
+.prompt2 {
+  color: #f92c85;
+  font-style: italic;
+}
 
 .meye {
   display: flex;
   flex-direction: column;
   justify-content: stretch;
-  margin-right: 20px;
   align-items: center;
-  margin: 0 15%;
-  padding: 20px 0px;
+  padding: 10px;
 }
 
-.footer {
-  text-align: center;
+.resume {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.connect {
+.resumepic {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  width: 40%;
+  height: inherit;
+  box-shadow: 0px 20px 40px gray;
+}
+
+.previews {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background: none;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+button a {
+  color: #105269;
   font-size: 20px;
-  font-weight: lighter;
-  margin: 20px 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  position: relative;
 }
 
-.cntlink {
-  color: black;
-}
-
-.cr {
-  color: gray;
+button a::before {
+  content: '';
+  position: absolute;
   width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  height: 100%;
+  background-color: #105269;
+  border-radius: 25px;
+  top: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.2s ease-in-out;
+  z-index: -1;
+}
+
+button a:hover {
+  color: white;
+}
+
+button a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
 }

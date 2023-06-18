@@ -9,7 +9,6 @@ import Involvements from "./Involvements";
     return (
       <main>
         <Header />
-        <hr />
         <Socials />
         <Intro />
         <Involvements />

@@ -6,7 +6,6 @@ import Socials from "./Socials";
     return (
       <main>
         <Header />
-        <hr />
         <Socials />
       </main>
     );

@@ -8,7 +8,6 @@ import Portfolio from "./Portfolio";
     return (
       <main>
         <Header />
-        <hr />
         <Socials />
         <Portfolio />
         <Footer />
