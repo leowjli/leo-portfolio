@@ -6,12 +6,13 @@ import ResumeCard from "./ResumeCard";
 
   export default function Resume() {
     return (
-      <main>
+      <div className="root-layout">
         <Header />
-        <hr />
         <Socials />
-        <ResumeCard />
+        <main>
+          <ResumeCard />
+        </main>
         <Footer />
-      </main>
+      </div>
     );
   }

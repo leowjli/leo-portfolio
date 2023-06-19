@@ -4,9 +4,9 @@ import Socials from "./Socials";
 
   export default function EZPark() {
     return (
-      <main>
+      <div className="root-layout">
         <Header />
         <Socials />
-      </main>
+      </div>
     );
   }

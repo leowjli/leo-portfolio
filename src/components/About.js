@@ -7,12 +7,14 @@ import Involvements from "./Involvements";
 
   export default function About() {
     return (
-      <main>
+      <div className="root-layout">
         <Header />
         <Socials />
-        <Intro />
-        <Involvements />
+        <main>
+          <Intro />
+          <Involvements />
+        </main>
         <Footer />
-      </main>
+      </div>
     );
   }

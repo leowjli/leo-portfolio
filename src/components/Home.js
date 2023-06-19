@@ -6,11 +6,11 @@ import Portfolio from "./Portfolio";
 
   export default function Home() {
     return (
-      <main>
+      <div className="root-layout">
         <Header />
         <Socials />
         <Portfolio />
         <Footer />
-      </main>
+      </div>
     );
   }

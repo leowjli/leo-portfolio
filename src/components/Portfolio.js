@@ -5,12 +5,12 @@ import MeyeCard from "./MeyeCard";
 
   export default function Portfolio() {
     return (
-      <div>
+      <main>
         <Banner />
         <div className="work">
           <EZParkCard />
           <MeyeCard />
         </div>
-      </div>
+      </main>
     );
   }
