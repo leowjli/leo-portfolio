@@ -119,7 +119,7 @@ body {
   padding-top: 10px;
 }
 
-article, h1, h3 {
+article, h1, h3, h5 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -215,8 +215,8 @@ article, h1, h3 {
 }
 
 .prompt, .prompt2 {
-  font-size: 16px;
-  margin: 6px 10px;
+  font-size: 14px;
+  margin: 2% 8%;
 }
 
 .prompt2 {
@@ -294,4 +294,70 @@ button a:hover {
 button a:hover::before {
   transform-origin: left;
   transform: scaleX(1);
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 40px 20px 40px;
+}
+
+.about img {
+  height: 60%;
+  width: 60%;
+  border-radius: 50%;
+  border: solid 5px #105169;
+}
+
+.about h1 {
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.about p {
+  font-size: 14px;
+  max-width: 800px;
+  word-wrap: break-word;
+  margin: 20px 0;
+}
+
+.involvements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 15%;
+}
+
+.involvements a {
+  text-decoration: none;
+  color: #f92c85;
+}
+
+.involvements a:hover{
+  text-decoration: underline;
+}
+
+.curly {
+  display: none;
+  font-size: 80px;
+  padding-bottom: 12px;
+  font-weight: 300;
+}
+
+.activities {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.activities h5 {
+  line-height: 1.4;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 5px 0;
 }

@@ -2,18 +2,18 @@ import React from "react";
 
   export default function Intro() {
     return (
-      <section className="intro">
-        <img src="/img/IMG_6337.PNG" alt="me smiling with open arms with ocean in background" />
+      <section className="about">
+        <img src="/img/IMG_6671.JPG" alt="me smiling with sunlight on my face casting a glow with beige background" />
         <div>
           <h1>Great to meet you!</h1>
           <p>
-            I am Leo, a third year student from Canada studying Informatics and Math and computer-related topics at the University of Washington. I am passionate about the design and coding processes that connects information and people, and strive to create new applications or designs that positively impacts the world.
+            I&apos;m Leo, a third year student from Canada studying Informatics and Math and computer-related topics at the University of Washington. I am passionate about the design and coding processes that connects information and people, and strive to create new applications or designs that positively impacts the world.
           </p>
           <p>
-            Currently, I am learning more code on my own and am diving deeper into Frontend Development. I have joined clubs that enhances my coding skills and worked with peers creating projects that solve problems around campus.
+            Currently, I am diving deeper into frontend development and have joined clubs that enhances my coding skills, working with peers to create projects that solve problems around campus.
           </p>
           <p>
-            Outside of classes, I like to play basketball, toss a Frisbee, practice drumming, doodle, eat good food, and listen to music.
+            Outside of classes, I like to play basketball, toss a frisbee, practice drumming, doodle, listen to music, and eat good food.
           </p>
         </div>
       </section>

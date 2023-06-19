@@ -15,18 +15,18 @@ import { Link } from "react-router-dom";
   export default function InvolveCards() {
     return (
       <div className="activities">
-        <section>
-          <Cards position={"UX Design and Web Management for "} link={"https://myearthyourearth.com/"} org={"meye"} orgName={"My Earth Your Earth"} />
-        </section>
-        <section>
+        <div>
+          <Cards position={"UX Design and Web Development for "} link={"https://myearthyourearth.com/"} orgName={"My Earth Your Earth"} />
+        </div>
+        <div>
           <Cards position={"Officer and Performance Director at "} link={"https://www.csauw.com/"} org={"csa"} orgName={"Chinese Student Assoication"} />
-        </section>
-        <section>
+        </div>
+        <div>
           <Cards position={"Hacker at "} link={"https://dh22.dubhacks.co/"} org={"dh"} orgName={"DubHacks Hackathon"} />
-        </section>
-        <section>
+        </div>
+        <div>
           <Cards position={"Cymbals Player for the Husky Drumline and "} link={"https://www.huskymarchingband.org/"} org={"hmb"} orgName={"Husky Marching Band"} />
-        </section>
+        </div>
       </div>
     );
  }

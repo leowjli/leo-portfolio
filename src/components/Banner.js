@@ -4,7 +4,7 @@ import React from "react";
     return (
       <div className="intro">
         <h1 className="greet">你好! Hello!</h1>
-        <h1>What's up, I'm Leo.</h1>
+        <h1>What&apos;s up, I&apos;m Leo.</h1>
         <div>
           <p className="major">Mathematics + Informatics student</p>
           <p className="major">at the University of Washington</p>
