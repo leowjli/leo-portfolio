@@ -1,5 +1,14 @@
 import React from "react";
 
+  function Team(props) {
+    return (
+      <div>
+        <p><b>{props.title}</b></p>
+        <p>{props.info}</p>
+      </div>
+    );
+  }
+
   export default function Intro() {
     return (
       <div>
@@ -11,22 +20,10 @@ import React from "react";
           </p>
         </div>
         <section className="team">
-          <div>
-            <p><b>Team:</b></p>
-            <p>4 people</p>
-          </div>
-          <div>
-            <p><b>My Role:</b></p>
-            <p>UI Design + User Research</p>
-          </div>
-          <div>
-            <p><b>Tools:</b></p>
-            <p>Figma, Google Docs, Moodboard</p>
-          </div>
-          <div>
-            <p><b>Duration:</b></p>
-            <p>4-5 weeks</p>
-          </div>
+          <Team title={"Team:"} info={"4 people"} />
+          <Team title={"My Role:"} info={"UI Design + User Research"} />
+          <Team title={"Tools:"} info={"Figma, Google Docs, Moodboard"} />
+          <Team title={"Duration:"} info={"4-5 weeks"} />
         </section>
       </div>
     );

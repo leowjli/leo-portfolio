@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./Header";
+import NavBar from "./Navbar";
 import Socials from "./Socials";
 import Intro from "./EzparkIntro";
 import Focus from "./Focus";
@@ -10,7 +10,7 @@ import Design from "./Design";
   export default function EZPark() {
     return (
       <div className="root-layout">
-        <Header />
+        <NavBar />
         <Socials />
         <Intro />
         <Focus />

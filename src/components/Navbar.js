@@ -11,17 +11,17 @@ import { useState } from 'react';
     
     return (
       <nav className="navbar">
-        <NavLink className="name" to="/">
+        <NavLink to="/">
           <img className="namelogo" src="/img/Name Logo.png" alt="Leo Li" />
         </NavLink>
         <button className="dropdown-btn" onClick={toggleMenu} aria-label="hamburger-menu">
           <i className={open ? 'fas fa-times' : 'fas fa-bars'}/>
         </button>
-        <div className="menu" hidden={!open}>
+        <div className={open ? "menu expanded" : "menu"}>
           <ul>
-            <NavLink to='/'>Home</NavLink>
-            <NavLink to='/About'>About</NavLink>
-            <NavLink to='/Resume'>Résumé</NavLink>
+            <li><NavLink to='/'>Home</NavLink></li>
+            <li><NavLink to='/About'>About</NavLink></li>
+            <li><NavLink to='/Resume'>Résumé</NavLink></li>
           </ul>
         </div>
       </nav>
