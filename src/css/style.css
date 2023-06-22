@@ -412,7 +412,9 @@ button a:hover::before {
   }
 
   .menu ul {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    position: static;
     margin: 8px 15px;
   }
   
