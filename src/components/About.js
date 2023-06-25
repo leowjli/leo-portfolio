@@ -1,6 +1,5 @@
 import React from "react";
 import NavBar from "./Navbar";
-import Socials from "./Socials";
 import Intro from "./Introduction";
 import Footer from "./Footer";
 import Involvements from "./Involvements";
@@ -9,7 +8,6 @@ import Involvements from "./Involvements";
     return (
       <div className="root-layout">
         <NavBar />
-        <Socials />
         <main>
           <Intro />
           <Involvements />
