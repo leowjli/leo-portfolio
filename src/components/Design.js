@@ -1,14 +1,20 @@
 import React from "react";
 
+  function DesignSectionCard(props) {
+    return(
+      <div>
+        <p>{props.context}</p>
+        <img src={props.img} alt={props.alt}/>
+      </div>
+    );
+  }
+
   export default function Design() {
     return (
       <section>
         <div className="sitemap">
           <h1>Site Map</h1>
-          <p>
-            We mapped out the important product features that can best benefit the users in our site map. This helped us structure and design each of the pages the users will encounter and increased the overall smoothness and functionality of the app.
-          </p>
-          <img src="/img/EZPark Site Map.png" alt="ez park site map" />
+          <DesignSectionCard context={"We mapped out the important product features that can best benefit the users in our site map. This helped us structure and design each of the pages the users will encounter and increased the overall smoothness and functionality of the app."} img={"/img/EZPark Site Map.png"} alt={"ez park site map"} />
         </div>
         <div className="lofi">
           <h1>Low Fidelity Prototype</h1>

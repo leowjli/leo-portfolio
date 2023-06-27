@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
     return (
       <section className="meye">
         <div className="img">
-          <Link to="https://myearthyourearth.com/" target="_blank">
+          <Link to="https://myearthyourearth.webflow.io/" target="_blank">
           <img className="logo" src="/img/MEYE Thumbnail.png" alt="my earth your earth website Thumbnail" />
             <div className="text">
               <p className="prompt">A non-profit organization that focuses on making positive impacts to the communities and the world at large. Our mission is to ensure that everyone in the world is can live a safe, and healthy life. We provide our community with knowledge and support on how our actions can influence the planet for the better.</p>

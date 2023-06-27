@@ -404,12 +404,12 @@ button a:hover::before {
 }
 
 /* ezpark ------------------------ */
-section {
-  margin: 100px;
+.ezpark-main section {
+  margin: 50px 100px;
 }
 
-img {
-  max-width: 640px;
+.ezpark-main img {
+  max-width: 240px;
 }
 
 .ezpark-main p {
@@ -427,22 +427,22 @@ img {
   align-items: center;
 }
 
-.team {
+section.team {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 740px;
-  margin: 20px;
+  margin: 20px 20px 5px;
 }
 
 .team p {
   margin: 0;
 }
 
-.focus {
+section.focus {
   display: flex;
   justify-content: space-evenly;
-  margin: 100px 50px;
+  margin: 0 100px;
 }
 
 .focus h1 {
@@ -504,9 +504,6 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: Inter, sans-serif;
-  margin-top: 50px;
-  margin-bottom: 0;
 }
 
 .lofi {
@@ -537,6 +534,10 @@ img {
   font-family: Inter, sans-serif;
   margin-top: 50px;
   margin-bottom: 100px;
+}
+
+.ezpark-main .cr {
+  margin: 0;
 }
 /* ezpark end -------------------- */
 
@@ -594,7 +595,6 @@ img {
     flex-direction: row;
     position: static;
     padding: 0;
-    margin: 8px 15px;
   }
   
   .menu li {
