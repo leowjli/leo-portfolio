@@ -1,6 +1,5 @@
 import React from "react";
 import NavBar from "./Navbar";
-import Socials from "./Socials";
 import Footer from "./Footer";
 import ResumeCard from "./ResumeCard";
 
@@ -8,7 +7,6 @@ import ResumeCard from "./ResumeCard";
     return (
       <div className="root-layout">
         <NavBar />
-        <Socials />
         <main>
           <ResumeCard />
         </main>

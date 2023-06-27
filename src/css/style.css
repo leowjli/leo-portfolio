@@ -403,6 +403,143 @@ button a:hover::before {
   transform: scaleX(1);
 }
 
+/* ezpark ------------------------ */
+section {
+  margin: 100px;
+}
+
+img {
+  max-width: 640px;
+}
+
+.ezpark-main p {
+  margin: 20px;
+}
+
+.ezpark-main h1 {
+  color: #B7A57A;
+}
+
+.ezpark-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 740px;
+  margin: 20px;
+}
+
+.team p {
+  margin: 0;
+}
+
+.focus {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 100px 50px;
+}
+
+.focus h1 {
+  padding: 20px 20px 0;
+}
+
+.problem, .sol {
+  padding: 10px;
+  margin: 20px;
+  border-radius: 20px;
+  background-color: #4b2e83;
+}
+
+.problem p, .sol p {
+  color: #e7f5fa;
+}
+
+.research {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.research a {
+  text-decoration: none;
+  font-weight: bold;
+  color: blueviolet;
+}
+
+.research a:hover{
+  text-decoration: underline;
+}
+
+.moodboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, sans-serif;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.userp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, sans-serif;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.sitemap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, sans-serif;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.lofi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, sans-serif;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, sans-serif;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.hifi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, sans-serif;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+/* ezpark end -------------------- */
+
 @media (min-width: 200px) {
    .dropdown-btn {
     border: 0;
