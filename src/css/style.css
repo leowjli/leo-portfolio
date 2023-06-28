@@ -187,8 +187,7 @@ article, h1, h3, h5 {
 
 .intro {
   font-size: 18px;
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding: 100px 0;
 }
 
 .major {
@@ -423,14 +422,21 @@ button a:hover::before {
 }
 
 .ezpark-intro, section.team,
-.team div, .research,
-.moodboard,.userp,
-.sitemap, .lofi,
-.style, .hifi {
+.team div, .research, .moodboard,
+.userp, .sitemap, .lofi, .style,
+.hifi, .moodboard div, .userp div,
+.sitemap div, .lofi div,
+.style div, .hifi div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.moodboard div, .userp div,
+.sitemap div, .lofi div,
+.style div, .hifi div {
+  margin: 0 20px;
 }
 
 .ezpark-intro h1 {
@@ -443,7 +449,6 @@ p.statement {
 
 section.team {
   justify-content: space-between;
-  width: 740px;
   margin: 5px 25px;
 }
 
@@ -453,6 +458,7 @@ section.team {
 
 .team p {
   margin: 2px;
+  text-align: center;
 }
 
 section.focus {
@@ -487,7 +493,7 @@ section.focus {
   text-decoration: underline;
 }
 
-.userp p, .userp img{
+.userp p {
   margin: 10px 20px;
 }
 
@@ -605,6 +611,43 @@ iframe {
     width: 3rem;
     height: 2px;
   }
+
+  .ezpark-main img {
+    max-width: 400px;
+  }
+  
+  .ezpark-main h1 {
+    font-size: 24px;
+  }
+
+  .ezpark-main p {
+    font-size: 14px;
+  }
+
+  .ezpark-intro h1 {
+    font-size: 30px;
+  }
+
+  section.team,
+  section.focus {
+    flex-direction: row;
+  }
+
+  .focus h1 {
+    padding: 10px 10px 0;
+  }
+
+  .problem, .sol {
+    margin: 10px 5px;
+  }
+
+  .problem p, .sol p {
+    margin: 10px;
+  }
+
+  iframe {
+    width: 400px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -630,8 +673,7 @@ iframe {
 
   .intro {
     font-size: 22px;
-    padding-top: 200px;
-    padding-bottom: 150px;
+    padding: 150px 0;
   }
 
   .major {
@@ -682,6 +724,36 @@ iframe {
   .resumepic {
     width: 55%;
   }
+
+  .ezpark-main p {
+    font-size: 16px;
+  }
+ 
+  .moodboard, .userp, 
+  .sitemap, .lofi, 
+  .style {
+    flex-direction: row;
+  }
+
+  div.userp-img {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .userp p {
+    margin: 20px;
+  }
+
+  iframe {
+    width: 850px;
+  }
+}
+
+@media (768px <= width <= 992px) {
+  .ezpark-main img {
+    max-width: 500px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -702,8 +774,6 @@ iframe {
 
   .intro {
     font-size: 26px;
-    padding-top: 250px;
-    padding-bottom: 150px;
   }
 
   .major {
@@ -711,10 +781,7 @@ iframe {
   }
 
   .work {
-    display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
   }
 
   .ezpark, .meye {
@@ -768,5 +835,35 @@ iframe {
 
   .resumepic {
     width: 45%;
+  }
+
+  .ezpark-main p {
+    font-size: 18px;
+  }
+
+  .ezpark-main img {
+    max-width: 550px;
+  }
+
+  .focus h1 {
+    padding: 20px 20px 0;
+  }
+
+  .problem, .sol {
+    margin: 20px 10px;
+  }
+
+  .problem p, .sol p {
+    margin: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ezpark-main section {
+    margin: 50px 150px;
+  }
+
+  .ezpark-main img {
+    max-width: 600px;
   }
 }

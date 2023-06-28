@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { SectionCard } from "./Design";
 
   export default function Research() {
     return (
@@ -13,22 +14,15 @@ import { Link } from "react-router-dom";
           </div>
         </section>
         <section className="moodboard">
-          <h1>Moodboard</h1>
-          <p>
-            The main stakeholders was UW students and staff and we wanted to bring out the joy in accessible parking, so we bounced our ideas on the moodboard, playing with different themes.
-          </p>
+          <SectionCard title={"Moodboard"} context={"The main stakeholders was UW students and staff and we wanted to bring out the joy in accessible parking, so we bounced our ideas on the moodboard, playing with different themes."} />
           <img src="/img/ezpark Moodboard.jpg" alt="moodboard of cars, maps, UW and parking" />
         </section>
         <section className="userp">
-          <h1>User Personas</h1>
-          <p>
-            Our targeted direct stakeholders are UW students and staff who needs to drive to campus daily, and need a smooth transition from parking to working or studying.
-          </p>
-          <p>
-            Our indirect stakeholders would be people like transportation services who don't need to use the app everyday but would be useful to know the traffic around them, and better assist with transportation.
-          </p>
-          <img src="/img/User Persona 1.jpg" alt="user persona of a bus driver that drives close to campus" />
-          <img src="/img/User Persona 2.jpg" alt="user persona of first generation student at UW" />
+          <SectionCard title={"User Personas"} context={"Our targeted direct stakeholders are UW students and staff who needs to drive to campus daily, and need a smooth transition from parking to working or studying."} contexts={"Our indirect stakeholders would be people like transportation services who don't need to use the app everyday but would be useful to know the traffic around them, and better assist with transportation."} />
+          <div className="userp-img">
+            <img src="/img/User Persona 1.jpg" alt="user persona of a bus driver that drives close to campus" />
+            <img src="/img/User Persona 2.jpg" alt="user persona of first generation student at UW" />
+          </div>
         </section>
       </article>
     );
