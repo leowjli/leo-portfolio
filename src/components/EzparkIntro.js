@@ -15,7 +15,7 @@ import React from "react";
         <h1>EZ PARK</h1>
         <p>Mobile App Design</p>
         <p className="statement">
-          We aim to serve UW and matriculated UW students who commute to campus daily, or keep their vehicles on campus, and make it easier for these students to find free and/or affordable parking located around their classrooms. Students should not have to worry about paying an excessive amount for parking.
+          We aim to serve matriculated and non-matriculated UW students who commute to campus daily, or keep their vehicles on campus, and make it easier for these students to find free and/or affordable parking located around their classrooms.
         </p>
         <section className="team">
           <Team title={"Team:"} info={"4 people"} />

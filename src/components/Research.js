@@ -3,23 +3,23 @@ import { Link } from "react-router-dom";
 
   export default function Research() {
     return (
-      <section>
-        <div className="research">
+      <article>
+        <section className="research">
           <h1>Research</h1>
           <div className="overview">
             <p>
               We used research methods such as doing stakeholder interviews, and surveying the community. We did interviews with a student that commutes to campus, and also we interviewed UW staff on how they think about parking at the UW. Then we found that the student users&apos; average time spent looking for parking is between 7  to 10 minutes. Based on the response, the user does not have a pleasant experience dealing withparking on campus, they expressed emotions like frustration and confusion. As for the UW staff, their response was that the parking has not only students affected by parking. Staff is also showing great concern. When we did the survey, we found that of the total number of 28 students, 64% spent between 5 to 15 minutes looking for parking. While 16% spend 3 to 5 minutes and 12% spend 30 or more minutes looking for parking. The link for the survey is: <Link to="https://docs.google.com/spreadsheets/d/1icmJJWb6aZvvzkhdZMXfJqROeKpqaraqQRhvq1pn-Ak/edit?usp=sharing">Parking Survey.</Link>
             </p>
           </div>
-        </div>
-        <div className="moodboard">
+        </section>
+        <section className="moodboard">
           <h1>Moodboard</h1>
           <p>
             The main stakeholders was UW students and staff and we wanted to bring out the joy in accessible parking, so we bounced our ideas on the moodboard, playing with different themes.
           </p>
           <img src="/img/ezpark Moodboard.jpg" alt="moodboard of cars, maps, UW and parking" />
-        </div>
-        <div className="userp">
+        </section>
+        <section className="userp">
           <h1>User Personas</h1>
           <p>
             Our targeted direct stakeholders are UW students and staff who needs to drive to campus daily, and need a smooth transition from parking to working or studying.
@@ -29,7 +29,7 @@ import { Link } from "react-router-dom";
           </p>
           <img src="/img/User Persona 1.jpg" alt="user persona of a bus driver that drives close to campus" />
           <img src="/img/User Persona 2.jpg" alt="user persona of first generation student at UW" />
-        </div>
-      </section>
+        </section>
+      </article>
     );
   }

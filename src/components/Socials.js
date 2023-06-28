@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
   }
 
   export default function Socials(props) {
-    const [displaySocials, setDisplaySocials] = useState(false);
+    const [displaySocials, setDisplaySocials] = useState(true);
 
     const handleClick = () => {
       setDisplaySocials(!displaySocials);
