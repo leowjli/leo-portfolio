@@ -12,9 +12,9 @@ import EZPark from "./components/EZPark";
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="ezpark" element={<EZPark />} />
-            <Route path="about" element={<About />} />
-            <Route path="resume" element={<Resume />} />
+            <Route path="/ezpark" element={<EZPark />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/resume" element={<Resume />} />
           </Route>
         </Routes>
       </BrowserRouter>
