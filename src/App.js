@@ -5,6 +5,7 @@ import About from "./components/About";
 import Resume from "./components/Resume";
 import Layout from "./components/Layout";
 import EZPark from "./components/EZPark";
+import ErrorPage from "./components/ErrorPage";
 
   export default function App() {
     return (
@@ -15,6 +16,7 @@ import EZPark from "./components/EZPark";
             <Route path="/ezpark" element={<EZPark />} />
             <Route path="/about" element={<About />} />
             <Route path="/resume" element={<Resume />} />
+            <Route path="*" element={<ErrorPage />} />
           </Route>
         </Routes>
       </BrowserRouter>
