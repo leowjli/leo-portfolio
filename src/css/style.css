@@ -206,7 +206,7 @@ article, h1, h3, h5 {
   color: black;
 }
 
-.ezpark, .meye {
+.ezpark, .meye, .genz {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -573,7 +573,7 @@ iframe {
     font-size: 17px;
   }
 
-  .ezpark, .meye {
+  .ezpark, .meye, .genz {
     padding: 20px;
   }
 
@@ -783,7 +783,7 @@ iframe {
     flex-direction: row;
   }
 
-  .ezpark, .meye {
+  .ezpark, .meye, .genz {
     padding: 5px;
   }
 
