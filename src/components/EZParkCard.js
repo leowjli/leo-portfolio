@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
   export default function EZParkCard() {
     return (
-      <section className="card">
+      <div className="card">
         <div className="ezpark">
           <div className="img">
             <Link to="/EZPark">
@@ -15,8 +15,11 @@ import { Link } from "react-router-dom";
           </div>
           <div className="desc">
             <h2><Link to="/EZPark">EZ Park</Link></h2>
+            <p>
+              mobile app design
+            </p>
           </div>
         </div>  
-      </section>
+      </div>
     );
   }

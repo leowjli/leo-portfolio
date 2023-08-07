@@ -8,11 +8,11 @@ import GenZCard from "./GenZCard";
     return (
       <main>
         <Banner />
-        <div className="work">
+        <section className="work">
           <EZParkCard />
           <MeyeCard />
           <GenZCard />
-        </div>
+        </section>
       </main>
     );
   }

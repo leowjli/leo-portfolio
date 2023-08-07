@@ -5,13 +5,18 @@
 body {
   margin: 0;
   font-family: Inter, 'Roboto', sans-serif;
-  background-color: #e7f5fa;
+  background-color: rgb(248, 248, 228);
+  /* old bg color -> #e7f5fa */
   color: black;
   cursor: url('../../public/img/Cursor.png'), auto;
 }
 
 a, button {
   cursor: url('../../public/img/Cursor.png'), auto;
+}
+
+h2 {
+  margin: 10px 0;
 }
 
 .root-layout {
@@ -99,7 +104,7 @@ a, button {
 .cntlink {
   color: #f92c85;
   text-decoration: underline;
-  margin: 0 0 0 4px;
+  margin: 0 0 0 8px;
 }
 
 .socials, .socials.expanded {
@@ -134,7 +139,7 @@ a, button {
   display: flex;
   list-style: none;
   padding: 0;
-  margin: 6px 0;
+  margin: 0;
 }
 
 .socials-items {
@@ -165,7 +170,6 @@ a, button {
 }
 
 .cr {
-  background-color: white;
   width: 100%;
   font-size: 10px;
   padding: 15px;
@@ -205,9 +209,12 @@ article, h1, h3, h5 {
 .work {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  margin: 0 15px 40px;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: 0 auto 150px;
+  column-gap: 15px;
+  row-gap: 25px;
+  max-width: 1250px;
 }
 
 .work a {
@@ -216,12 +223,11 @@ article, h1, h3, h5 {
 }
 
 .card {
-  background-color: white;
-  padding: 10px;
-  margin: 15px;
+  background-color: #fdfdfd;
   border-radius: 20px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   transition: 0.3s;
+  max-width: 500px;
 }
 
 .card:hover {
@@ -229,17 +235,18 @@ article, h1, h3, h5 {
   transform: translate(0, -10px);
 }
 
-.ezpark, .meye, .genz {
+/* .ezpark, .meye, .genz {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 10px;
-}
+} */
 
 .desc {
   display: flex;
   flex-direction: column;
+  padding: 15px 15px 25px;
 }
 
 .img {
@@ -247,10 +254,10 @@ article, h1, h3, h5 {
 }
 
 .logo {
-  display: block;
+  display: flex;
   width: 100%;
+  object-fit: cover;
   border-radius: 20px 20px 0 0;
-  border: solid 2px white;
 }
 
 .text {
@@ -285,7 +292,7 @@ article, h1, h3, h5 {
 
 .prompt, .prompt2 {
   font-size: 14px;
-  margin: 2% 8%;
+  margin: 10px 25px;
 }
 
 .prompt2 {
@@ -586,10 +593,6 @@ iframe {
     position: static;
     padding: 0;
   }
-  
-  .menu li {
-    margin: 0 10px;
-  }
 
   .intro {
     font-size: 19px;
@@ -599,13 +602,9 @@ iframe {
     font-size: 17px;
   }
 
-  .ezpark, .meye, .genz {
-    padding: 20px;
-  }
-
   .prompt, .prompt2 {
     font-size: 16px;
-    margin: 3% 10%;
+    margin: 10px 35px;
   }
 
   .about {
@@ -683,8 +682,7 @@ iframe {
   }
   
   .menu li {
-    margin: 0 15px;
-    padding: 5px 15px;
+    padding: 5px 10px;
     font-size: 19px;
   }
 
@@ -706,8 +704,7 @@ iframe {
   }
 
   .prompt, .prompt2 {
-    font-size: 18px;
-    margin: 2% 12%;
+    margin: 8px 25px;
   }
 
   .about {
@@ -788,11 +785,6 @@ iframe {
     margin-left: 15px;
   }
 
-  .menu li {
-    padding: 5px 20px;
-    font-size: 22px;
-  }
-
   .connect {
     font-size: 22px;
   }
@@ -807,19 +799,15 @@ iframe {
 
   .work {
     flex-direction: row;
+    flex-wrap: nowrap;
   }
 
   .card {
     margin: 5px;
   }
 
-  .ezpark, .meye, .genz {
-    padding: 5px;
-  }
-
   .prompt, .prompt2 {
     font-size: 16px;
-    margin: 2% 12%;
   }
 
   .about {
