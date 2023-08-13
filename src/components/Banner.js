@@ -3,12 +3,9 @@ import React from "react";
   export default function Banner() {
     return (
       <div className="intro">
-        <h1 className="greet">你好! Hello!</h1>
+        <h1 className="greet">Hello! 你好!</h1>
         <h1>What&apos;s up, I&apos;m Leo.</h1>
-        <div>
-          <p className="major">Mathematics + Informatics student</p>
-          <p className="major">at the University of Washington</p>
-        </div>
+        <p className="info">A frontend developer passionate about designing applications that connects information and people</p>
       </div>
     );
   }

@@ -11,9 +11,6 @@ import { useState } from 'react';
     
     return (
       <nav className="navbar">
-        <NavLink to="/">
-          <img className="namelogo" src="/img/Name Logo.png" alt="Leo Li" />
-        </NavLink>
         <button className="dropdown-btn" onClick={toggleMenu} aria-label="hamburger-menu">
           <i className={open ? 'fas fa-times' : 'fas fa-bars'}/>
         </button>
