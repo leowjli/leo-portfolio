@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
       <div className="card">
         <div className="ezpark">
           <div className="img">
-            <Link to="/EZPark">
+            <Link to="/EZPark" target="_blank">
               <img className="logo" src="/img/EZ Park Thumbnail.png" alt="EZ Park Project Thumbnail"/>
               <div className="text">    
                 <p className="prompt">Check it out!</p>
@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
             </Link>
           </div>
           <div className="desc">
-            <h2><Link to="/EZPark">EZ Park</Link></h2>
+            <h2><Link to="/EZPark" target="_blank">EZ Park</Link></h2>
             <p>
               mobile app design
             </p>

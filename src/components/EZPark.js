@@ -5,13 +5,19 @@ import Focus from "./Focus";
 import Research from "./Research";
 import Design from "./Design";
 import Footer from "./Footer"
+import { NavLink } from "react-router-dom";
 
 
   export default function EZPark() {
     return (
       <div className="root-layout">
-        <main className="ezpark-main">
+        <header>
+          <NavLink to="/">
+            <img className="namelogo" src="/img/Name Logo.png" alt="Leo Li" />
+          </NavLink>
           <NavBar />
+        </header>
+        <main className="ezpark-main">
           <Intro />
           <Focus />
           <Research />

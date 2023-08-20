@@ -464,18 +464,19 @@ button a:hover::before {
   max-width: 240px;
 }
 
-.ezpark-main p {
-  margin: 20px;
-  font-size: 12px;
+.ezpark-main h1 {
+  color: #4b2e83;
+  font-size: 30px;
 }
 
-.ezpark-main h1 {
-  color: #B7A57A;
-  font-size: 22px;
+.ezpark-main p {
+  margin: 20px;
+  font-size: 14px;
 }
 
 .ezpark-intro, section.team,
-.team div, .research, .moodboard,
+.team div, section.focus,
+.research, .moodboard,
 .userp, .sitemap, .lofi, .style,
 .hifi, .moodboard div, .userp div,
 .sitemap div, .lofi div,
@@ -496,9 +497,9 @@ button a:hover::before {
   margin-top: 25px;
 }
 
-p.statement {
+/* p.statement {
   margin: 0 20px 20px;
-}
+} */
 
 section.team {
   justify-content: space-between;
@@ -530,6 +531,12 @@ section.focus {
   margin-bottom: 10px;
   border-radius: 20px;
   background-color: #4b2e83;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.problem h1, .sol h1 {
+  color: #b7a57a;
 }
 
 .problem p, .sol p {
