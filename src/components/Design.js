@@ -5,7 +5,6 @@ import React from "react";
       <div>
         <h1>{props.title}</h1>
         <p>{props.context}</p>
-        <p>{props.contexts}</p>
       </div>
     );
   }
@@ -18,7 +17,7 @@ import React from "react";
           <img src="/img/EZPark Site Map.png" alt="ez park site map" />
         </section>
         <section className="lofi">
-          <SectionCard title={"Low Fidelity Prototype"} context={"Our Lo-fi was created as we inputted our research into design and structure. We wanted to make sure the user feels at ease with the information flow so we went for simplicity."} />
+          <SectionCard title={"Low Fidelity"} context={"Our Lo-fi was created as we inputted our research into design and structure. We wanted to make sure the user feels at ease with the information flow so we went for simplicity."} />
           <img src="/img/lo-fi/Lo-Fi.png" alt="lo-fi screens 2 on top, 2 on bottom" />
         </section>
         <section className="style">

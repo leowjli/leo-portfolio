@@ -18,7 +18,10 @@ import { SectionCard } from "./Design";
           <img src="/img/ezpark Moodboard.jpg" alt="moodboard of cars, maps, UW and parking" />
         </section>
         <section className="userp">
-          <SectionCard title={"User Personas"} context={"Our targeted direct stakeholders are UW students and staff who needs to drive to campus daily, and need a smooth transition from parking to working or studying."} contexts={"Our indirect stakeholders would be people like transportation services who don't need to use the app everyday but would be useful to know the traffic around them, and better assist with transportation."} />
+          <SectionCard title={"User Personas"} context={"Our targeted direct stakeholders are UW students and staff who needs to drive to campus daily, and need a smooth transition from parking to working or studying."} />
+          <p>
+            Our indirect stakeholders would be people like transportation services who don't need to use the app everyday but would be useful to know the traffic around them, and better assist with transportation.
+          </p>
           <div className="userp-img">
             <img src="/img/User Persona 1.jpg" alt="user persona of a bus driver that drives close to campus" />
             <img src="/img/User Persona 2.jpg" alt="user persona of first generation student at UW" />
