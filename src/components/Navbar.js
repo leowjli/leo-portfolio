@@ -18,7 +18,7 @@ import { useState } from 'react';
           <ul>
             <li><NavLink to='/'>Home</NavLink></li>
             <li><NavLink to='/About'>About</NavLink></li>
-            <li><NavLink to='/Resume'>Résumé</NavLink></li>
+            <li><NavLink to='/Resume'>Resume</NavLink></li>
           </ul>
         </div>
       </nav>

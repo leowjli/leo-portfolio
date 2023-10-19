@@ -12,7 +12,7 @@ import React from "react";
             I&apos;m a 3rd year student from Canada passionate about the designing and building process that connects information + people.
           </h2>
           <p>
-            I&apos;m studying Informatics + Math, and learning computer-related topics and UI/UX at the University of Washington. I love the interactions between tech and people, and strive to create new applications that positively impacts us.
+            I&apos;m studying Informatics, and learning computer-related topics and UI/UX at the University of Washington. I love the interactions between tech and people, and strive to create new applications that positively impacts us.
           </p>
           <p>
             Currently, I am focusing on frontend development and joined clubs that enhances my development skills, partnering with peers to create projects that solve problems around campus, and (re)design tools that I would use.

@@ -5,10 +5,30 @@
 body {
   margin: 0;
   font-family: Inter, 'Roboto', sans-serif;
-  background-color: #ede7de;
+  /* background-color: #faf6f1; */
+  background: linear-gradient(30deg, #9983c7 0%, #341d6510 100%), radial-gradient(94.51% 124.88% at 94.32% 94.43%, #41f4ffc7 0%, rgba(128, 217, 255, 0.78) 46.52%, rgba(65, 198, 255, 0) 100%), linear-gradient(41deg, #FFFCE6 4.33%, rgba(255, 252, 230, 0) 73.7%); 
+  background-blend-mode: normal,normal,normal,normal,normal,normal;
+  background-size: 150% 150%;
   /* old bg color -> #e7f5fa */
-  color: #285943;
+  /* color: #285943; */
+  color: #1c2022;
+  animation: bg 10s ease-in-out infinite alternate; 
   cursor: url('../../public/img/Cursor.png'), auto;
+}
+
+@keyframes bg {
+  0% {
+    background-position: left;
+  }
+  25% {
+    background-position: bottom;
+  }
+  50% {
+    background-position: top;
+  }
+  100% {
+    background-size: right;
+  }
 }
 
 .root-layout {
@@ -60,7 +80,8 @@ header, .menu ul {
 .menu li a {
   text-align: center;
   text-decoration: none;
-  color: #285943;
+  /* color: #285943; */
+  color: #1c2022;
   padding: 10px;
   position: relative;
   font-weight: 500;
@@ -72,7 +93,8 @@ header, .menu ul {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #285943;
+  /* background-color: #285943; */
+  background-color: #341D65;
   border-radius: 10px;
   top: 0;
   left: 0;
@@ -113,7 +135,8 @@ header, .menu ul {
 }
 
 .cntlink {
-  color: #f92c85;
+  /* color: #f92c85; */
+  color: #3066BE;
   text-decoration: underline;
   margin: 0 0 0 8px;
 }
@@ -133,7 +156,6 @@ header, .menu ul {
 .line {
   width: 2rem;
   height: 1.5px;
-  background-color: white;
   margin-left: 5px;
   margin-right: auto;
   transform: scaleX(0.2);
@@ -190,7 +212,6 @@ header, .menu ul {
 .intro h1, .intro p {
   margin: 0;
   padding: 0;
-  color: #1c2022;
 }
 
 .intro, .intro div {
@@ -201,7 +222,8 @@ header, .menu ul {
 }
 
 .intro .greet {
-  color: #f92c85;
+  /* color: #f92c85; */
+  color: #3066BE;
 }
 
 .intro {
@@ -209,11 +231,12 @@ header, .menu ul {
   padding: 50px 0 100px;
 }
 
-.info {
+p.info {
   text-align: center;
   max-width: 400px;
   font-size: 16px;
   line-height: 1.4;
+  margin-top: 10px;
 }
 
 .work {
@@ -230,7 +253,8 @@ header, .menu ul {
 
 .work a {
   text-decoration: none;
-  color: #285943;
+  /* color: #285943; */
+  color: #3066BE;
 }
 
 .card {
@@ -326,8 +350,8 @@ header, .menu ul {
   width: 100%;
   height: auto;
   border-radius: 20%;
-  border: solid 5px rgb(40, 89, 67);
-  box-shadow: rgba(40, 89, 67, 0.4) 5px 5px, rgba(45, 103, 77, 0.3) 10px 10px;
+  border: solid 5px rgb(56 34 104);
+  box-shadow: rgba(56, 34, 104, 0.4) 5px 5px, rgba(54, 38, 77, 0.3) 10px 10px;
 }
 
 .about h1 {
@@ -424,7 +448,8 @@ button {
 }
 
 button a {
-  color: #285943;
+  /* color: #285943; */
+  color: #1c2022;
   font-size: 20px;
   padding: 10px 20px;
   text-decoration: none;
@@ -436,7 +461,8 @@ button a::before {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #285943;
+  /* background-color: #285943; */
+  background-color: #3066BE;
   border-radius: 25px;
   top: 0;
   left: 0;
@@ -476,11 +502,16 @@ button a:hover::before {
   font-size: 14px;
 }
 
-.ezpark-intro, section.team,
-.team div, section.focus,
-.research, .moodboard,
-.userp, .sitemap, .lofi, .style,
-.hifi, .moodboard div, .userp div,
+.ezpark-main article {
+  max-width: 800px;
+}
+
+.ezpark-main, .ezpark-intro, 
+section.team, .team div, 
+section.focus, .research, 
+.moodboard, .userp, .sitemap, 
+.lofi, .style, .hifi, 
+.moodboard div, .userp div,
 .sitemap div, .lofi div,
 .style div, .hifi div {
   display: flex;
@@ -728,7 +759,7 @@ iframe {
     font-size: 24px;
   }
 
-  .major, .info,
+  .major, p.info,
   .activities h3 {
     font-size: 18px;
   }
@@ -740,7 +771,6 @@ iframe {
   .about {
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: flex-start;
     margin: 40px;
   }
 
@@ -815,6 +845,10 @@ iframe {
     font-size: 26px;
   }
 
+  p.info {
+    max-width: 550px;
+  }
+
   .major {
     font-size: 24px;
   }
@@ -883,7 +917,15 @@ iframe {
 }
 
 @media (min-width: 1200px) {
+  .about {
+    margin: 80px 200px 30px;
+  }
+
   .ezpark-main section {
-    margin: 50px 150px;
+    margin: 15px 150px;
+  }
+
+  .ezpark-main article {
+    max-width: 1200px;
   }
 }
