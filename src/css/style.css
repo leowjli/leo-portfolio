@@ -745,7 +745,8 @@ section.ss-focus {
 }
 
 .ss-design, .sketches, 
-.prototype, .ss-hifi {
+.prototype, .ss-hifi,
+.sketches-img {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -758,7 +759,7 @@ section.ss-focus {
   padding: 30px 0;
 }
 
-.ss-design p,
+.ss-design h1,
 .product-display p {
   padding: 0 20px;
   margin: 0 20px;
@@ -967,7 +968,8 @@ section.ss-focus {
     max-width: 500px;
   }
 
-  .ss-problem, .solution {
+  .ss-problem, .solution,
+  .ss-design h1 {
     margin-left: 50px;
     margin-right: 50px;
   }
@@ -978,7 +980,6 @@ section.ss-focus {
   }
 
   .sketches-img {
-    display: flex;
     flex-direction: row;
   }
 
@@ -1196,7 +1197,8 @@ section.ss-focus {
     margin-top: 25px;
   }
 
-  .ss-problem, .solution {
+  .ss-problem, .solution,
+  .ss-design h1 {
     margin-left: 70px;
     margin-right: 70px;
   }
@@ -1272,8 +1274,9 @@ section.ss-focus {
     margin: 0 0 20px 0;
   }
 
-  .ss-problem, .solution {
+  .ss-problem, .solution,
+  .ss-design h1 {
     margin-left: 170px;
     margin-right: 170px;
-}
+  }
 }
