@@ -1,2 +1,2 @@
 ## My personal Website!
-leowjli.github.io
+leowjli.netlify.app/

@@ -17,7 +17,7 @@ import { Link } from "react-router-dom";
           </div>
           <div className="desc">
               <h2><Link to="https://myearthyourearth.webflow.io/" target="_blank" >My Earth Your Earth</Link></h2>
-              <p>website for nonprofit organization</p>
+              <p style={{color: "#1c2022"}}>website for nonprofit organization</p>
           </div>
         </div>
       </div>

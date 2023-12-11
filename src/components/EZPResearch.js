@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { SectionCard } from "./Design";
+import { SectionCard } from "./EZPDesign";
 
   export default function Research() {
     return (

@@ -1,25 +1,25 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-  export default function EZParkCard() {
+  export default function SlangSphereCard() {
     return (
       <div className="card">
-        <Link to="/EZPark" target="_blank">
-        <div className="ezpark">
+        <Link to="/SlangSphere" target="_blank">
+        <div className="slangsphere">
           <div className="img">
-            <Link to="/EZPark" target="_blank">
-              <img className="logo" src="/img/EZ Park Thumbnail.png" alt="EZ Park Project Thumbnail"/>
+            <Link to="/SlangSphere" target="_blank">
+              <img className="logo" src="/img/SlangSphere Thumbnail.png" alt="SlangSphere Project Thumbnail"/>
               <div className="text">    
                 <p className="prompt">Check it out!</p>
               </div>
             </Link>
           </div>
           <div className="desc">
-            <h2><Link to="/EZPark" target="_blank">EZ Park</Link></h2>
+            <h2><Link to="/SlangSphere" target="_blank">SlangSphere</Link></h2>
             <p style={{color: "#1c2022"}}>mobile application design</p>
           </div>
         </div>
-        </Link>  
+        </Link>
       </div>
     );
   }

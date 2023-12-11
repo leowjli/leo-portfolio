@@ -6,6 +6,7 @@ import Resume from "./components/Resume";
 import Layout from "./components/Layout";
 import EZPark from "./components/EZPark";
 import ErrorPage from "./components/ErrorPage";
+import SlangSphere from "./components/SlangSphere";
 
   export default function App() {
     return (
@@ -14,6 +15,7 @@ import ErrorPage from "./components/ErrorPage";
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="/ezpark" element={<EZPark />} />
+            <Route path="/slangsphere" element={<SlangSphere />} />
             <Route path="/about" element={<About />} />
             <Route path="/resume" element={<Resume />} />
             <Route path="*" element={<ErrorPage />} />

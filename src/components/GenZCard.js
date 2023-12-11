@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
           </div>
           <div className="desc">
             <h2><Link to="https://keeping-up-with-gen-zs.web.app/" target="_blank">Keeping Up With Gen Zs</Link></h2>
-            <p>gen Z slang website</p>
+            <p style={{color: "#1c2022"}}>gen z slang website</p>
           </div>
         </div>
       </div>
