@@ -17,7 +17,7 @@ import React from "react";
           <div className="overview">
             <h1>3 out of the 4 of my team members are international students.</h1>
             <p>
-              After determining our community, we used research methods such as conducting stakeholder interviews and surveys to the community international community. Although most of my team were international students who provided good insight into our solution, we wanted to ensure we obtain the full experience from all international students.
+              After determining our community, we used research methods such as conducting stakeholder interviews and surveys to the international community. Although most of my team were international students who provided good insight into our solution, we wanted to ensure we obtain the full experience from all international students.
             </p>
           </div>
         </section>
