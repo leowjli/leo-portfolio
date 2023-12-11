@@ -40,7 +40,7 @@ import { Link } from "react-router-dom";
           <h1>SlangSphere</h1>
           <img src="/img/SlangSphere Thumbnail.png" alt="SlangSphere Project Thumbnail"/>
           <img src="/img/SS Final Designs.png" alt="SlangSphere final design features"/>
-          <button className="hifi-btn"><Link to="https://www.figma.com/proto/zg6wKWPnHLk2YBRpXpeGfU/SlangSphere-Mobile-App?page-id=50%3A1188&type=design&node-id=50-12160&viewport=-154%2C499%2C0.13&t=D7gqb1KmJ8PAVnSz-1&scaling=scale-down&starting-point-node-id=50%3A12154&mode=design" target="_blank">View Prototype</Link></button>
+          <button className="hifi-btn"><Link to="https://www.figma.com/proto/zg6wKWPnHLk2YBRpXpeGfU/SlangSphere-Mobile-App?page-id=50%3A1188&type=design&node-id=50-12154&viewport=-154%2C499%2C0.13&t=o0W2aDZCtKqZO4Wl-1&scaling=scale-down&starting-point-node-id=50%3A12154&mode=design" target="_blank">View Prototype</Link></button>
         </div>
       </article>
     );
