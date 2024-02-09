@@ -1,9 +1,9 @@
 import React from "react";
 import NavBar from "./Navbar";
-import SSIntro from "./SSIntro";
-import SSFocus from "./SSFocus";
-import SSResearch from "./SSResearch";
-import SSDesign from "./SSDesign";
+import SSIntro from "./SlangSphere/SSIntro";
+import SSFocus from "./SlangSphere/SSFocus";
+import SSResearch from "./SlangSphere/SSResearch";
+import SSDesign from "./SlangSphere/SSDesign";
 import Footer from "./Footer"
 import { NavLink } from "react-router-dom";
 

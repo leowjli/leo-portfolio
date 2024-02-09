@@ -1,9 +1,9 @@
 import React from "react";
 import NavBar from "./Navbar";
-import Intro from "./EZPIntro";
-import Focus from "./EZPFocus";
-import Research from "./EZPResearch";
-import Design from "./EZPDesign";
+import Intro from "./EZPark/EZPIntro";
+import Focus from "./EZPark/EZPFocus";
+import Research from "./EZPark/EZPResearch";
+import Design from "./EZPark/EZPDesign";
 import Footer from "./Footer"
 import { NavLink } from "react-router-dom";
 
