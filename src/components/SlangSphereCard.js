@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
         <div className="slangsphere">
           <div className="img">
             <Link to="/SlangSphere" target="_blank">
-              <img className="logo" src="/img/SlangSphere Thumbnail.png" alt="SlangSphere Project Thumbnail"/>
+              <img className="logo" src="/img/slangsphere/SlangSphere Thumbnail.png" alt="SlangSphere Project Thumbnail"/>
               <div className="text">    
                 <p className="prompt">Check it out!</p>
               </div>

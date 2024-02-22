@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
         <div className="ezpark">
           <div className="img">
             <Link to="/EZPark" target="_blank">
-              <img className="logo" src="/img/EZ Park Thumbnail.png" alt="EZ Park Project Thumbnail"/>
+              <img className="logo" src="/img/ezpark/EZ Park Thumbnail.png" alt="EZ Park Project Thumbnail"/>
               <div className="text">    
                 <p className="prompt">Check it out!</p>
               </div>
