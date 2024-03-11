@@ -14,15 +14,15 @@ import React from "react";
       <article>
         <section className="sitemap">
           <SectionCard title={"Site Map"} context={"We mapped out the important product features that can best benefit the users in our site map. This helped us structure and design each of the pages the users will encounter and increased the overall smoothness and functionality of the app."} />
-          <img src="/img/EZPark Site Map.png" alt="ez park site map" />
+          <img src="/img/ezpark/EZPark Site Map.png" alt="ez park site map" />
         </section>
         <section className="lofi">
           <SectionCard title={"Low Fidelity"} context={"Our Lo-fi was created as we inputted our research into design and structure. We wanted to make sure the user feels at ease with the information flow so we went for simplicity."} />
-          <img src="/img/lo-fi/Lo-Fi.png" alt="lo-fi screens 2 on top, 2 on bottom" />
+          <img src="/img/ezpark/lo-fi/Lo-Fi.png" alt="lo-fi screens 2 on top, 2 on bottom" />
         </section>
         <section className="style">
           <SectionCard title={"Style Guide"} context={"Some style guides were inputted to ensure consistency in our designs and aesthetics of our app. We choose school colors to represent the school spirit but also colors that are appealing to other users, and simple fonts to be easily legible."} />
-          <img src="/img/hi-fi/style.jpg" alt="fonts and colors used for ez park app" />
+          <img src="/img/ezpark/hi-fi/style.jpg" alt="fonts and colors used for ez park app" />
         </section>
         <section className="hifi">
           <SectionCard title={"Final Product"} context={"After extensive design sessions and feedback recieved from users with our lo-fi designs, here is our final product:"} />
