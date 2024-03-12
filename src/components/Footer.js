@@ -7,7 +7,7 @@ import Socials from "./Socials";
         <div className="connect">
           <h3>Let&apos;s grab some food and</h3><Socials cntPrompt={"connect"} />
         </div>
-        <p className="cr"><span>&copy;</span> 2023 Leo Li</p>
+        <p className="cr"><span>&copy;</span> 2024 Leo Li</p>
       </footer>
     );
   }
