@@ -3,7 +3,6 @@ import NavBar from "./Navbar";
 import Footer from "./Footer";
 import Portfolio from "./Portfolio";
 import { NavLink } from "react-router-dom";
-import CurrentlyPlaying from "./Spotify/CurrentlyPlaying";
 
   export default function Home() {
     return (
