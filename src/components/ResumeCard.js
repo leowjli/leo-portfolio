@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
             <Link to="/img/Resume.pdf" target="_blank">Download PDF</Link>
           </button>
           <button>
-            <Link to="/img/Career Resume.pdf" target="_blank">ATS Friendly</Link>
+            <Link to="https://drive.google.com/file/d/1HHcIamUx6mMW7_SmEWMNlZRuJGh8yMnY/view?usp=sharing" target="_blank">ATS Friendly</Link>
           </button>
         </div>
         <img className="resumepic" src="/img/Resume.png" alt="Leo's resume" />

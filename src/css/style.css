@@ -533,8 +533,8 @@ section.team {
 }
 
 section.focus {
-  justify-content: space-evenly;
-  margin: 15px;
+  justify-content: space-between;
+  margin: 15px 0;
 }
 
 .focus h1 {

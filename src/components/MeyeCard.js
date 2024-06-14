@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
       <div className="card">
         <div className="meye">
           <div className="img">
-            <Link to="https://myearthyourearth.webflow.io/" target="_blank">
+            <Link to="https://myearthyourearth.com/" target="_blank">
             <img className="logo" src="/img/MEYE Thumbnail.png" alt="my earth your earth website Thumbnail" />
               <div className="text">
                 <p className="prompt">A non-profit organization that focuses on making positive impacts to the communities and the world at large.</p> 
@@ -16,7 +16,7 @@ import { Link } from "react-router-dom";
             </Link>
           </div>
           <div className="desc">
-              <h2><Link to="https://myearthyourearth.webflow.io/" target="_blank" >My Earth Your Earth</Link></h2>
+              <h2><Link to="https://myearthyourearth.com/" target="_blank" >My Earth Your Earth</Link></h2>
               <p style={{color: "#1c2022"}}>website for nonprofit organization</p>
           </div>
         </div>

@@ -4,7 +4,7 @@ import React from "react";
     return (
       <section className="about">
         <div className="me">
-          <img src="/img/IMG_6671.JPG" alt="me smiling with sunlight on my face casting a glow with beige background" />
+          <img src="/img/IMG_6671.PNG" alt="me smiling with sunlight on my face casting a glow with beige background" />
         </div> 
         <div>
           <h1>Hey, I&apos;m Leo!</h1>
