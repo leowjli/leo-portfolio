@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
     return (
       <div className="card">
         <Link to="https://budget-buddy.tjwong22.me/" target="_blank">
-        <div className="ezpark">
+        <div className="budgetBuddy">
           <div className="img">
-            <Link to="/EZPark" target="_blank">
+            <Link to="https://budget-buddy.tjwong22.me/" target="_blank">
               <img className="logo" src="/img/budget_buddy.png" alt="Budget Buddy Project Thumbnail"/>
               <div className="text">    
                 <p className="prompt">Do you budget? Need some help? Check it out!</p>

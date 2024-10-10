@@ -9,13 +9,13 @@ import React from "react";
         <div>
           <h1>Hey, I&apos;m Leo!</h1>
           <p>
-            I&apos;m a 3rd year student from Canada studying Informatics, and learning computer-related topics and UI/UX at the University of Washington. I love the interactions between technology and people, and strive to create new applications that positively impacts us.
+            I&apos;m a 4th year student from Canada studying Informatics, and learning computer-related topics and UI/UX Design at the University of Washington. I love the interactions between technology and people, and strive to create new applications that positively impacts us.
           </p>
           <p>
-            Currently, I am focusing on frontend development and joined clubs that enhances my development skills, partnering with peers to create projects that solve problems around campus, and (re)design tools that I would use.
+            Currently, I am focusing on frontend development and joined clubs that enhances my development skills, partnering with peers to create projects that solve problems around campus and in the greater community, and (re)design tools that I would use.
           </p>
           <p>
-            Outside of classes, I like to play basketball, toss a frisbee, hit the gym, drum, doodle, vibe to music, and eat delicious food.
+            Outside of classes, I like to play basketball, toss a frisbee, hit the gym, doodle, vibe to music, and eat delicious food.
           </p>
         </div>
       </section>
