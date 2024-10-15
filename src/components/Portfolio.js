@@ -5,6 +5,7 @@ import MeyeCard from "./MeyeCard";
 import GenZCard from "./GenZCard";
 import SlangSphereCard from "./SlangSphereCard";
 import BudgetBuddyCard from "./BudgetBuddyCard";
+import CSACard from "./CSACard";
 
   export default function Portfolio() {
     return (
@@ -13,6 +14,7 @@ import BudgetBuddyCard from "./BudgetBuddyCard";
         <section className="work">
           <BudgetBuddyCard />
           <SlangSphereCard />
+          <CSACard />
           <GenZCard />
           <EZParkCard />
           <MeyeCard />
